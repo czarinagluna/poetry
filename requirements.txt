@@ -2,3 +2,4 @@ streamlit
 spacy
 tqdm
 rank_bm25
+streamlit-image-select
