@@ -3,3 +3,4 @@ tqdm
 rank_bm25
 streamlit-image-select
 spacy
+python -m spacy download en_core_web_lg
