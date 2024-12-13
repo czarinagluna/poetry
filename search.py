@@ -5,21 +5,11 @@ from tqdm import tqdm
 from rank_bm25 import BM25Okapi
 
 
-import spacy
-from spacy.cli import download
+import subprocess
 
-def ensure_model():
-    try:
-        # Try to load the model
-        nlp = spacy.load('en_core_web_sm')
-    except OSError:
-        # If not found, download the model
-        download('en_core_web_sm')
-        nlp = spacy.load('en_core_web_sm')
-    return nlp
-
-if __name__ == "__main__":
-    ensure_model()
+@st.cache_resource
+def download_en_core_web_sm():
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 data = pd.read_csv('poems_data.csv')
 file_paths = data['file_path'].tolist()
