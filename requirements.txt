@@ -1,0 +1,80 @@
+altair==4.2.0
+attrs==22.1.0
+blinker==1.5
+blis==0.7.9
+brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1648854242877/work
+cachetools==5.2.0
+catalogue==2.0.8
+certifi==2022.9.24
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1656782892388/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1644853463426/work
+click==8.1.3
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+commonmark==0.9.1
+conda-package-handling @ file:///Users/runner/miniforge3/conda-bld/conda-package-handling_1649385125392/work
+confection==0.0.3
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1666836415203/work
+cymem==2.0.7
+decorator==5.1.1
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1-py3-none-any.whl
+entrypoints==0.4
+fuzzywuzzy @ file:///home/conda/feedstock_root/build_artifacts/fuzzywuzzy_1605704184142/work
+gitdb==4.0.9
+GitPython==3.1.29
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1642433548627/work
+importlib-metadata==5.0.0
+Jinja2==3.1.2
+jsonschema==4.17.0
+langcodes==3.3.0
+MarkupSafe==2.1.1
+murmurhash==1.0.9
+numpy==1.23.5
+packaging==21.3
+pandas==1.5.1
+pathy==0.8.1
+Pillow==9.3.0
+preshed==3.0.8
+protobuf==3.20.3
+pyarrow==10.0.0
+pycosat @ file:///Users/runner/miniforge3/conda-bld/pycosat_1649384941891/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydantic==1.10.2
+pydeck==0.8.0
+Pygments==2.13.0
+Pympler==1.0.1
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1665350324128/work
+pyparsing==3.0.9
+pyrsistent==0.19.2
+PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1648857374584/work
+python-dateutil==2.8.2
+python-Levenshtein @ file:///Users/runner/miniforge3/conda-bld/python-levenshtein_1649606956932/work
+pytz==2022.6
+pytz-deprecation-shim==0.1.0.post0
+rank-bm25==0.2.2
+requests==2.28.1
+rich==12.6.0
+ruamel-yaml-conda @ file:///Users/runner/miniforge3/conda-bld/ruamel_yaml_1653464548430/work
+semver==2.13.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smart-open==5.2.1
+smmap==5.0.0
+spacy==3.4.3
+spacy-legacy==3.0.10
+spacy-loggers==1.0.3
+srsly==2.4.5
+streamlit==1.15.1
+streamlit-image-select==0.5.1
+thinc==8.1.5
+thinc-apple-ops==0.1.2
+toml==0.10.2
+toolz==0.12.0
+tornado==6.2
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1649051611147/work
+typer==0.7.0
+typing_extensions==4.4.0
+tzdata==2022.6
+tzlocal==4.2
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1647489083693/work
+validators==0.20.0
+wasabi==0.10.1
+zipp==3.10.0
