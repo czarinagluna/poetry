@@ -2,5 +2,4 @@ streamlit
 tqdm
 rank_bm25
 streamlit-image-select
-spacy
-python -m spacy download en_core_web_lg
+spacy==3.5.0 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
